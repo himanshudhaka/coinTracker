@@ -3,15 +3,9 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <div class="footer">
+    <div className="footer">
       <p>
-        Made with ♥️ by{" "}
-        <a href="https://www.linkedin.com/in/sapna2001/" className="link">
-          Sapna2001
-        </a>
-      </p>
-      <p>
-        <a href="https://github.com/Sapna2001/">
+        <a href="https://github.com/himanshudhaka">
           <i className="fa fa-github fa-2x link"></i>
         </a>
       </p>

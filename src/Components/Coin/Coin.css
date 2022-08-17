@@ -10,3 +10,71 @@
 .gain {
   color: #11d811;
 }
+
+.coinContainer{
+  display: flex;
+  justify-content: center;
+}
+
+.coinRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  height: 80px;
+  border-bottom: 1px solid #d7d7d7;
+  width: 900px;
+}
+
+.coin{
+  display: flex;
+  align-items: center;
+  padding-right: 24px;
+  min-width: 300px;
+}
+
+.coin h2 {
+  font-size: 16px;
+  width: 150px;
+}
+
+.coin img {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+
+.coinSymbol {
+  text-transform: uppercase;
+}
+
+.coinData {
+  display: flex;
+  text-align: right;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.coinPrice {
+  width: 110px;
+}
+
+.coinVolume {
+  width: 155px;
+}
+
+.coinCap {
+  width: 230px;
+}
+
+/* .coinpercent {
+  width: 100px;
+} */
+
+.coinRed {
+  color: #f00606;
+}
+
+.coinGreen {
+  color: green;
+}
